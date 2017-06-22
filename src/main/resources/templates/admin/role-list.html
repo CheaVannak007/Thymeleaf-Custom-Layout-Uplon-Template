@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorator="/admin/admin-layout">
+<head>
+<meta charset="ISO-8859-1">
+<title>Role-List</title>
+</head>
+<body>
+<div layout:fragment="content">
+							
+
+								<div class="p-20">
+								<h2 th:text="#{role-list}">Role List</h2>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                <tr>
+                                                    <th th:text="#{ID}">ID</th>
+                                                    <th th:text="#{Name}">Name</th>
+                                                    
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Chea Vannak</td>
+
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Ann Mouykea</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Yoeurn Many</td>
+                                                    
+                                                </tr>
+                                                 <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Seng Theara</td>
+                                                    
+                                                    
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+
+</div>
+</body>
+</html>

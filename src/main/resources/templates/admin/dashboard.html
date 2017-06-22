@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorator="/admin/admin-layout">
+	  
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<div layout:fragment="content">
+	
+	
+	     <div class="row">
+                    <div class="col-xs-12 col-lg-12 col-xl-7">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="card-box">
+                                    <h4 class="header-title m-t-0 m-b-20" th:text="#{INBOX}">Inbox</h4>
+
+                                    <div class="inbox-widget nicescroll" style="height: 320px;">
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-1.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Chadengle</p>
+                                                <p class="inbox-item-text">Hey! there I'm available...</p>
+                                                <p class="inbox-item-date">13:40 PM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-2.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Tomaslau</p>
+                                                <p class="inbox-item-text">I've finished it! See you so...</p>
+                                                <p class="inbox-item-date">13:34 PM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-3.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Stillnotdavid</p>
+                                                <p class="inbox-item-text">This theme is awesome!</p>
+                                                <p class="inbox-item-date">13:17 PM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-4.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Kurafire</p>
+                                                <p class="inbox-item-text">Nice to meet you</p>
+                                                <p class="inbox-item-date">12:20 PM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-5.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Shahedk</p>
+                                                <p class="inbox-item-text">Hey! there I'm available...</p>
+                                                <p class="inbox-item-date">10:15 AM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-6.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Adhamdannaway</p>
+                                                <p class="inbox-item-text">This theme is awesome!</p>
+                                                <p class="inbox-item-date">9:56 AM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-8.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Arashasghari</p>
+                                                <p class="inbox-item-text">Hey! there I'm available...</p>
+                                                <p class="inbox-item-date">10:15 AM</p>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="inbox-item">
+                                                <div class="inbox-item-img"><img th:src="@{/admin/assets/images/users/avatar-9.jpg}" class="img-circle" alt=""></div>
+                                                <p class="inbox-item-author">Joshaustin</p>
+                                                <p class="inbox-item-text">I've finished it! See you so...</p>
+                                                <p class="inbox-item-date">9:56 AM</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-md-6">
+                                <div class="card-box">
+                                    <h4 class="header-title m-t-0 m-b-20" th:text="#{SALES-STATISTICS}">Sales Statistics</h4>
+
+                                    <p class="font-600 m-b-5">iMacs <span class="text-danger pull-right"><b>79%</b></span></p>
+                                    <progress class="progress progress-striped progress-xs progress-danger m-b-0" value="79" max="100">79%
+                                    </progress>
+                                </div>
+
+                                <div class="card-box">
+                                    <h4 class="header-title m-t-0 m-b-20">Monthly Sales</h4>
+
+                                    <p class="font-600 m-b-5">Macbooks <span class="text-success pull-right"><b>30%</b></span></p>
+                                    <progress class="progress progress-striped progress-xs progress-success m-b-0" value="30" max="100">30%
+                                    </progress>
+                                </div>
+
+                                <div class="card-box">
+                                    <h4 class="header-title m-t-0 m-b-20" th:text="#{DAILY-SALES}">Daily Sales</h4>
+
+                                    <p class="font-600 m-b-5">Mobiles <span class="text-warning pull-right"><b>50%</b></span></p>
+                                    <progress class="progress progress-striped progress-xs progress-warning m-b-0" value="50" max="100">50%
+                                    </progress>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div><!-- end col-->
+
+                    <div class="col-xs-12 col-lg-12 col-xl-5">
+                        <div class="card-box">
+
+                            <h4 class="header-title m-t-0 m-b-30"  th:text="#{TOP-CONTRACTS}" >Top Contracts</h4>
+
+                            <div class="table-responsive">
+                                <table class="table table-bordered m-b-0">
+                                    <thead>
+                                        <tr>
+                                            <th th:text="#{COMPANY}">Company</th>
+                                            <th>Start Date</th>
+                                            <th>End Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th class="text-muted">Apple Technology</th>
+                                            <td>20/02/2014</td>
+                                            <td>19/02/2020</td>
+                                            <td><span class="label label-success">Paid</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-muted">Envato Pty Ltd.</th>
+                                            <td>20/02/2014</td>
+                                            <td>19/02/2020</td>
+                                            <td><span class="label label-danger">Unpaid</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-muted">Dribbble LLC.</th>
+                                            <td>20/02/2014</td>
+                                            <td>19/02/2020</td>
+                                            <td><span class="label label-success">Paid</span></td>
+                                        </tr>
+                                    <tr>
+                                            <th class="text-muted">Adobe Family</th>
+                                            <td>20/02/2014</td>
+                                            <td>19/02/2020</td>
+                                            <td><span class="label label-success">Paid</span></td>
+                                        </tr>
+                                    <tr>
+                                            <th class="text-muted">Apple Technology</th>
+                                            <td>20/02/2014</td>
+                                            <td>19/02/2020</td>
+                                            <td><span class="label label-danger">Unpaid</span></td>
+                                        </tr>
+                                    <tr>
+                                            <th class="text-muted">Envato Pty Ltd.</th>
+                                            <td>20/02/2014</td>
+                                            <td>19/02/2020</td>
+                                            <td><span class="label label-success">Paid</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                        </div>
+                    </div><!-- end col-->
+	
+	</div>
+	</div>
+
+</body>
+</html>

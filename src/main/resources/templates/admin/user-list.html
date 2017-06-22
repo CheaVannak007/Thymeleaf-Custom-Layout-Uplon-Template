@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorator="/admin/admin-layout">
+<head>
+<meta charset="ISO-8859-1">
+<title>user-list</title>
+</head>
+<body>
+<div layout:fragment="content">
+
+						<div class="p-20">
+						<h2 th:text="#{userlist}">User List</h2></form><br>
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th​​​ th:text="#{ID}">ID</th>
+                                                <th th:text="#{Name}">Name</th>
+                                                <th th:text="#{Positon}">Position</th>
+                                                <th th:text="#{Email}">Email</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr class="table-active">
+                                                <th scope="row">1</th>
+                                                <td>Chea Vannak</td>
+                                                <td>Designer</td>
+                                                <td>Vannakchea7@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Ann MouyKea</td>
+                                                <td>Codding</td>
+                                                <td>AnnMouyKea@gmail.com</td>
+                                            </tr>
+                                            <tr class="table-success">
+                                                <th scope="row">3</th>
+                                                <td>Vong Sovanthoeurn</td>
+                                                <td>GroupLeader</td>
+                                                <td>V_Sovan@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>Yoeurm Many</td>
+                                                <td>Leader</td>
+                                                <td>YoeurnMany@gmail.com</td>
+                                            </tr>
+                                           
+                                           
+                                            <tr class="table-warning">
+                                                <th scope="row">5</th>
+                                                <td>Seng Theara</td>
+                                                <td>Tester</td>
+                                                <td>Thearaseng@gmail.com</td>
+                                            </tr>
+                                           
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+</div>
+</body>
+</html>

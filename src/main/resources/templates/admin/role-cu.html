@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorator="/admin/admin-layout">
+<head>
+<meta charset="ISO-8859-1">
+<title>Role-cu</title>
+</head>
+<body>
+<div layout:fragment="content">
+
+
+ <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 col-xl-6">
+                                    <form>
+                                    <h2 th:text="#{role-create-update}" th:text="#{role-cu}">Role Crete Update</h2></form><br>
+                                    <fieldset class="form-group">
+                                            <label th:text="#{ID}" >ID</label>
+                                            <input class="form-control m-b-20" type="Number" placeholder="Number input">
+                                            </small>
+                                        </fieldset>
+                                     <fieldset class="form-group">
+                                            <label th:text="#{Name}">Name</label>
+                                            <input class="form-control m-b-20" type="text" placeholder="Name input">
+                                            </small>
+                                       </fieldset>
+                         
+                                        <button type="submit" class="btn btn-primary" th:text="#{submit}">Submit</button>
+</div>
+
+
+</div>
+</body>
+</html>
